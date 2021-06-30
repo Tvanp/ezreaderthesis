@@ -3,9 +3,8 @@ Hi, welcome to my git project.
 In order to run the code, execute "simscript.py". 
 This code requires a few datasets.
 
-First, it requires
-a corpus which has word frequency data. I reccommend
-the BNC corpus, which I have also used in my thesis.
+First, it requires a corpus which has word frequency data.
+I reccommend the BNC corpus, which I have also used in my thesis.
 This is called "df" in the code.
 
 Second, it requires a corpus over which to run the simulation.
@@ -17,6 +16,8 @@ already has empirical data for mono- and bi-linguals.
 The files are called "skipdataBi" and "skipdataMono" in the code.
 
 Lastly, you will need to download the BNC trigrams through python.
+If this file is too big (i.e. requires too much PC memory), try using 
+a smaller tri-gram corpus like Brown corpus.
 
 ____________________________________________________________________________
 
