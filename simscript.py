@@ -127,7 +127,7 @@ empiricalMonoSkipHi = 0
 empiricalMonoSkipTot = 0
 empiricalBiSkipTot = 0
 
-for i in range(200): #How many times shall I simulate?
+for i in range(900): #How many times shall I simulate?
     sim = ez.Simulation(sentence=simulation)
     sleeps_fixated = []
     highest_fixation = 0
